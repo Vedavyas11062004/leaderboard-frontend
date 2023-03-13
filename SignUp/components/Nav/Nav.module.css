@@ -1,0 +1,37 @@
+.mainNav{
+    color:rgb(239, 229, 229);
+    background-color: rgb(21, 20, 20);
+    display: flex;
+    justify-content: space-between;
+    padding:50px 100px;
+}
+
+.rightSideNav{
+    display: flex;
+    align-items: center;
+}
+
+.rightSideNav i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.container2{
+    display: flex;
+}
+.linkBTN{
+    color:rgb(255, 250, 250);
+    text-decoration: none;
+}
+
+.linkBTN:hover{
+    color:rgba(241, 233, 233, 0.5);
+    text-decoration: underline;
+}
+
+
+.or{
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+}

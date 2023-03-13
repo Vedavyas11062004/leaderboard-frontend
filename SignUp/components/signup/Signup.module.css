@@ -1,0 +1,121 @@
+/*
+ Color codes
+ bg: #081621
+ bg-light: #f1f1f1
+ in-bg: #e8f0fe
+ go-bg; #797389
+ white-light: rgba(255,255,255,.5)
+*/
+
+.loginContainer{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 80vh;
+}
+
+
+
+.inputContainer label{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family:sans-serif;
+}
+
+.inputContainer input{
+    width: 100%;
+    background-color: white;
+    color: rgb(237, 241, 241);
+    padding: 10px;
+    border-radius: .5rem;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px groove black;
+}
+
+
+.loginBTN{
+    border: 1px solid black;
+    width: 100%;
+    padding: 15px;
+    border-radius: .5rem;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-color: white;
+    color:black;
+    transition: all 0.4s;
+    margin-top: 20px;
+    font-family:cursive;
+}
+
+.loginBTN:hover{
+    transition: all 0.4s;
+    background-color:black;
+    border: 1px solid white;
+    color: white;
+    font-family: cursive;
+}
+
+.loginContainerv2{
+    width: 400px;
+    background-color: #ffffff;
+    /* padding: 0px; */
+    border-radius: .5rem;
+    margin: 30px;
+}
+.loginContainerv2 h2{
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+    color: red;
+}
+
+
+.or{
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #e11414;
+    font-size: large;
+}
+
+.googleBTN{
+    padding: 15px;
+    width: 100%;
+    border: 1px solid black;
+    background-color:  white;
+    border-radius: .5rem;
+    
+    color:black;
+    transition: all 0.4s;
+    font-family: cursive;
+}
+
+.googleBTN:hover{
+    transition: all 0.4s;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    font-family: cursive;
+}
+
+
+.footerContainer{
+    display: flex;
+    /* margin-top: px; */
+    justify-content: space-between;
+    font-family:cursive;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footerContainer a{
+    color:rgb(23, 8, 241);
+}
+.footerContainer a:hover{
+    color:#e11414
+}
